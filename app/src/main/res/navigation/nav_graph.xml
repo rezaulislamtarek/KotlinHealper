@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pagingExampleFragment">
+
+    <fragment
+        android:id="@+id/pagingExampleFragment"
+        android:name="com.diatomicsoft.kotlinhelper.ui.paging3.PagingExampleFragment"
+        android:label="fragment_paging_example"
+        tools:layout="@layout/fragment_paging_example" />
+</navigation>
